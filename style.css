@@ -1,0 +1,28 @@
+/*Reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'outfit', sans-serif;
+}
+
+
+/* Feel free to remove these styles or customise in your own stylesheet 👍 */
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/*Style*/
+
+:root{
+
+    --font-color: hsl(220, 15%, 55%);
+    --background-color: hsl(212, 45%, 89%);
+    --card-color: hsl(0, 0%, 100%);
+    --dark-color:hsl(218, 44%, 22%);
+}
+
+body{
+    background: var(--background-color);
+}
